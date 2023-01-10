@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1849b85d_002D632a_002D440f_002Dab3c_002Dd640df6ccf1b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PlayerAShouldWinLessEloIfTheyAreFavoredVictor" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::0900D01A-3FC5-4842-AF4D-836A5C008B07::net7.0::Miller.MatchMaking.EloRating.Test.Unit.EloTests.PlayerAShouldWinLessEloIfTheyAreFavoredVictor&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0900D01A-3FC5-4842-AF4D-836A5C008B07::net7.0::Miller.MatchMaking.EloRating.Test.Unit.EloTests.PlayerAShouldHaveCorrectWinProbability&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

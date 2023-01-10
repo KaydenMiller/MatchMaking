@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miller.MatchMaking.EloRating", "Miller.MatchMaking.EloRating\Miller.MatchMaking.EloRating.csproj", "{D3231735-1706-432A-B248-EA5FD10D0424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miller.MatchMaking.EloRating.Test.Unit", "Miller.MatchMaking.EloRating.Test.Unit\Miller.MatchMaking.EloRating.Test.Unit.csproj", "{0900D01A-3FC5-4842-AF4D-836A5C008B07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miller.MatchMaking.Console", "Miller.MatchMaking.Console\Miller.MatchMaking.Console.csproj", "{EA8E2A19-C99B-4289-9F50-BC3322FFD820}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3231735-1706-432A-B248-EA5FD10D0424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3231735-1706-432A-B248-EA5FD10D0424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3231735-1706-432A-B248-EA5FD10D0424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3231735-1706-432A-B248-EA5FD10D0424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0900D01A-3FC5-4842-AF4D-836A5C008B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0900D01A-3FC5-4842-AF4D-836A5C008B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0900D01A-3FC5-4842-AF4D-836A5C008B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0900D01A-3FC5-4842-AF4D-836A5C008B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8E2A19-C99B-4289-9F50-BC3322FFD820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8E2A19-C99B-4289-9F50-BC3322FFD820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8E2A19-C99B-4289-9F50-BC3322FFD820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8E2A19-C99B-4289-9F50-BC3322FFD820}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
