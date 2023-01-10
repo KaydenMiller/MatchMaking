@@ -1,6 +1,4 @@
-﻿using Microsoft.VisualBasic.CompilerServices;
-
-namespace Miller.MatchMaking.EloRating;
+﻿namespace Miller.MatchMaking.EloRating;
 
 public struct EloRating
 {
@@ -57,23 +55,17 @@ public struct EloRating
     public static EloRating CalculateEloExchanged(EloRating playerARating, EloRating playerBRating, bool playerAWon = true, int kValue = 30)
     {
         var probPlayerB = CalculateWinProbability(playerARating, playerBRating);
-        var probPlayerA = CalculateWinProbability(playerBRating, playerARating);
 
-        var Ra = 0.0d;
-        var Rb = 0.0d;
+        var ra = 0.0d;
         if (playerAWon)
         {
-            Ra += kValue * (1 - probPlayerB);
-            Rb += kValue * (0 - probPlayerA);
+            ra += kValue * (1 - probPlayerB);
         }
         else
         {
-            Ra += kValue * (0 - probPlayerB);
-            Rb += kValue * (1 - probPlayerA); 
+            ra += kValue * (0 - probPlayerB);
         }
 
-        Console.WriteLine($"Ra={Ra};Rb={Rb}");
-
-        return (EloRating)Math.Round(Ra, 0);
+        return (EloRating)Math.Round(ra, 0);
     }
 }

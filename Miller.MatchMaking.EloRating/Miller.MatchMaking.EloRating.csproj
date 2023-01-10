@@ -1,7 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -10,6 +9,14 @@
         <PackageProjectUrl>https://github.com/KaydenMiller/MatchMaking</PackageProjectUrl>
         <RepositoryUrl>https://github.com/KaydenMiller/MatchMaking</RepositoryUrl>
         <Description>A simple tool for calculating elo rating for simple games</Description>
+        <PackageReadmeFile>./README.md</PackageReadmeFile>
+        <LangVersion>11</LangVersion>
+        <TargetFrameworks>net7.0;netstandard2.1</TargetFrameworks>
+        <Version>1.0.1</Version>
     </PropertyGroup>
+    
+    <ItemGroup>
+        <None Include=".\README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
 
 </Project>
